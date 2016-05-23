@@ -1,0 +1,251 @@
+
+/******** selectores de etiqueta ***************/
+
+body {
+	margin: 0;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+}
+
+span {
+	color: #00CCFF;
+}
+
+h2 {
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h3 {
+	font-size: 37px;
+}
+
+/************ selectores de clases ***************/
+
+/******* Sección home *********/
+
+.home {
+	background-image: url('../images/fondo_home.png');
+	height: 870px;
+	color: white;
+}
+ 
+.home div {
+	margin: 120px 330px 0 330px;
+	border: 4px solid;
+	border-radius: 5px;
+}
+
+.logo1 {
+	margin-top: 163px;
+	position: relative;
+	left: 510px;
+}
+
+.logo2 {
+	margin: 20px;
+}
+
+.flecha{
+	margin-top: 290px;
+	position: relative;
+	left: 630px;
+}
+
+/******* Sección About *********/
+
+.menu {
+	font-size: 15px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu li {
+	margin: 15px;
+	display: inline-block;
+}
+
+.menu a {
+	color: black;
+	margin-left:20px;
+	text-decoration: none; 
+}
+
+.p1 {
+	margin-left: 210px;
+	margin-right: 210px; 
+	text-align: center;
+	font-size: 15px;
+}
+
+.fondo_about {
+	position: relative;
+	left: 127px;
+	margin-top: 50px;
+	margin-bottom: -20px;
+}
+
+/*estilos de los articulos*/
+
+.article {
+	margin-left: 40px; 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.art1{
+	margin: 35px;
+}
+
+/******* sección service **********/ 
+
+.service {
+	background-image: url('../images/fondo_services.png');
+	height: 766px;
+}
+
+.title {
+	margin-top: 40px;
+	padding-top: 40px;
+	margin-bottom: -20px;
+}
+
+.line {
+	position: relative;
+	left: 560px;
+}
+
+/*estilos de los articulos*/
+
+.ima{	
+	margin: 60px;
+}
+
+.title-1 h3 {
+	margin: -40px 0 0 100px;
+}
+
+.title-2 h3 {
+	margin: -40px 0 0 120px;
+}
+
+.title-3 h3 {
+	margin: -50px 0 0 50px;
+
+}
+
+.art2 {
+	display: flex;
+	margin: 10px 30px 30px 30px;
+	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.art1 p, .art2 p{
+	font-size: 15px;
+}
+
+/********** Sección contacto ************/
+
+.contacto {
+	background: black;
+	color: white;
+}
+
+.contacto h2 {
+	margin: 0;
+} 
+	
+.contacto p {
+	text-align: center;
+	font-size: 18;
+} 
+
+.title-b {
+	padding: 60px 0 20px 0;   
+}
+
+/* estilos de contactos */
+
+.contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ima2 {
+	margin: 20px 130px 30px 150px; 
+}
+
+.cont {
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cont p {
+ 	margin: 0 0px 30px 140px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.cont a{
+	margin: 0 0px 30px 100px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* estilos de formulario */
+
+.caja {
+	margin-left: 315px;
+	margin-bottom: 20px;
+	width: 682px;
+	height: 54px;
+	color: white;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.caja2 {
+	margin-left: 315px;
+	width: 682px;
+	height: 175px;
+	color: white;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.button {
+	background-image: url('../images/box_send.png');
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	width: 245px;
+	height: 60px;
+	margin: 30px 0 200px 520px;
+	text-align: center;
+}
+
+.boton {
+	position: relative;
+}
+
+.send {
+	position: absolute;
+	left: 535px;
+	top: 42px;
+}
+
